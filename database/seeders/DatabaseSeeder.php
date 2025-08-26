@@ -26,43 +26,50 @@ class DatabaseSeeder extends Seeder
                 'name' => 'Ammar Hanz',
                 'code' => 'ammar23',
                 'status' => null,
-                'comment' => 'hallo'
+                'jumlah_tamu' => '1',
+                'comment' => ''
             ],
             [
                 'name' => 'Raihan Saputra',
                 'code' => 'raihan12',
                 'status' => null,
-                'comment' => 'hallo'
+                'jumlah_tamu' => '2',
+                'comment' => ''
             ],
             [
                 'name' => 'Dewi Lestari',
                 'code' => 'dewi88',
                 'status' => null,
-                'comment' => 'hallo'
+                'jumlah_tamu' => '1',
+                'comment' => ''
             ],
             [
                 'name' => 'Budi Santoso',
                 'code' => 'budi45',
                 'status' => null,
-                'comment' => 'hallo'
+                'jumlah_tamu' => '1',
+                'comment' => ''
             ],
             [
                 'name' => 'Siti Aminah',
                 'code' => 'siti99',
                 'status' => null,
-                'comment' => 'hallo'
+                'jumlah_tamu' => '1',
+                'comment' => ''
             ],
             [
                 'name' => 'Wina',
                 'code' => 'wina99',
                 'status' => null,
-                'comment' => 'hallo'
+                'jumlah_tamu' => '1',
+                'comment' => ''
             ],
             [
                 'name' => 'dafa',
                 'code' => 'dafa99',
                 'status' => null,
-                'comment' => 'hallo'
+                'jumlah_tamu' => '1',
+                'comment' => ''
             ],
         ];
 

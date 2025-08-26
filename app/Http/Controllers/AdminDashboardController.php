@@ -21,6 +21,7 @@ class AdminDashboardController extends Controller
             'name' => 'required|string|max:255',
             'code' => 'required|string|max:50|unique:guests',
             'status' => 'required|in:Hadir,Tidak Hadir,Belum Konfirmasi',
+            'jumlah_tamu' => 'required|string|max:255',
             'comment' => 'nullable|string|max:500'
         ]);
 
@@ -28,6 +29,7 @@ class AdminDashboardController extends Controller
             'name' => $request->name,
             'code' => $request->code,
             'status' => $request->status ?? null,
+            'jumlah_tamu' => $request->status ?? null,
             'comment' => $request->comment ?? null
         ]);
 

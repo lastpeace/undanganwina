@@ -15,6 +15,7 @@ return new class extends Migration {
             $table->string('name');
             $table->string('code')->unique();
             $table->enum('status', ['Hadir', 'Tidak Hadir', 'Belum Konfirmasi'])->nullable();
+            $table->string('jumlah_tamu');
             $table->text('comment')->nullable();
             $table->timestamps();
         });

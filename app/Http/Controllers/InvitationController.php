@@ -23,12 +23,14 @@ class InvitationController extends Controller
         $request->validate([
             'code' => 'required|exists:guests,code',
             'status' => 'required',
+            'jumlah_tamu' => 'required',
             'comment' => 'nullable|string'
         ]);
 
         $guest = Guest::where('code', $request->code)->first();
         $guest->update([
             'status' => $request->status,
+            'jumlah_tamu' => $request->jumlah_tamu,
             'comment' => $request->comment
         ]);
 
